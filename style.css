@@ -1,0 +1,30 @@
+.color{
+    width: 100px;
+    height: 200px;
+    background-color: black;
+}
+@media(min-width:450px){
+    .color{
+        background-color: blue;
+    }
+}
+@media(min-width:550px){
+    .color{
+        background-color: red;
+    }
+}
+@media(min-width:650px){
+    .color{
+        background-color: green;
+    }
+}
+@media(orientation:landscape){
+    .color{
+        width: 500px;
+    }
+}
+@media(orientation:portrait){
+    .color{
+        width: 200px;
+    }
+}
